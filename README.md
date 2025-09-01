@@ -9,4 +9,5 @@
  - After changing the variables, open a terminal/cmd in the root folder of the application and execute the following command: docker-compose up --build
  - Now the application should be started on http://localhost:8080/api/f1. 
  - In the resources file there is already a postman collection attached with calls for every endpoint, otherwise you can also call the endpoints using cURL.
+ - At application startup, if there are no users in your database, the app will create by default for testing purposes 5 users with ids and names from (1, user1) to (5, user5)
  - To shut down the application you will execute the following command: docker-compose down
